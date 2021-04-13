@@ -95,7 +95,8 @@
 }
 
 .amenities-one{
-    display: flex;
+    display: none;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     /*text-align: center;*/
@@ -103,7 +104,8 @@
     height: 30vh;
 }
 .amenities-two{
-    display: flex;
+    display: none;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     width: 100%;
