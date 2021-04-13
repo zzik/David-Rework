@@ -1,0 +1,64 @@
+.primary{
+    background-color: #012a4a;
+}
+
+.secondary{
+    background-color: #01497c;
+}
+
+.tertiary{
+    background-color: #2a6f97;
+}
+
+.quaternary{
+    background-color: #61a5c2;
+}
+
+.quinary{
+    background-color: #a9d6e5;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.primary-font{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+.secondary-font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+.bold {
+    font-weight: 800;
+}
+h1 {
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: lighter;
+}
+h3{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.lighter{
+    font-weight: lighter;
+}
+.not-bold{
+    font-weight: normal;
+}
+.black-text{
+    color: black;
+}
+.italic{
+    font-style: italic;
+}
