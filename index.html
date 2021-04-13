@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./colors-and-fonts.css">
+    <link rel="stylesheet" href="./form.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,21 +19,17 @@
                 <div class="top-second-flex">
                     <h2 class="welcome-to secondary-font">welcome to</h2>
                     <h1 class="welcome-to">Truhkers</h1>
-                    
+                    <br><br>
                     <h3 class="not-bold welcome-to-half">Old School Truhkers with New School Skills!</h3>
+                    -
                     <h3 class="not-bold welcome-to-half">Specializing in Team OTR Operations.</h3>
+                    -
                     <h3 class="secondary-font welcome-to-half"><span class="bold">Top Pay</span> – <span class="underline">Flex Time-Off</span></h3>
-
-                    <!--    test
-                    <h3 class="secondary-font">Old School Truhkers with New School Skills! <br>
-                        Specializing in Team OTR Operations. <br>
-                    <span class="bold"> Top Pay – <span class="underline">Flex Time-Off</span></span></h3>
-                    -->
 
                 </div>
                 <div class="buttons">
-                    <button class="apply white-text secondary"><h3>APPLY</h3></button>
-                    <button class="about white-text primary"><h3>ABOUT</h3></button>
+                    <button class="apply white-text primary"><h3>Apply</h3></button>
+                    <button class="about white-text primary"><h3>About</h3></button>
                 </div>
             </div>    
         </section>
@@ -69,7 +66,7 @@
         </section>
 
         <!--       About Us         -->
-        <section class="call-to-action quaternary">
+        <section class="call-to-action secondary">
             <div class="second-flex">
                 <div class="second-left">
                     <h1 class="white-text primary-font">About Us</h1>
@@ -89,9 +86,9 @@
 
         <!--       Words from owner         -->
         <section class="words-from-owner">
-            <div class="second-flex quinary">
+            <div class="second-flex quaternary">
                 <div class="second-left">
-                    <h2 class="primary-font">Words From Owner</h2>
+                    <h1 class="primary-font">Words From Owner</h1>
                 </div>
                 <div class="second-right">
                     <h3 class="second-list secondary-font italic">
@@ -102,8 +99,8 @@
         </section>
 
         <!--        requirements        -->
-        <section class="requirements secondary">
-            <div class="second-flex white-text">
+        <section class="requirements quinary">
+            <div class="second-flex black-text">
                 <div class="second-left">
                     <h1 class="primary-font">Requirements</h1>
                 </div>
@@ -120,35 +117,75 @@
         </section>
 
         <!--                -->
-        <section class="applicant-form white-text">
+        <section class="applicant-form black-text">
+            <h2 class="form-title white-text">Driver Application</h2>
             <div class="form-flex">
                 <form action="" method="post" class="the-form">
-                    <h2 class="form-title">Driver Application</h2>
+                    
                     <br>
-                    <label for="fname"><h3>First Name:</h3></label> <br>
-                    <input type="text" name="fname" placeholder="e.g. John" required> <br>
-                    <label for="lname"><h3>Last Name:</h3></label> <br>
-                    <input type="text" name="lname" placeholder="e.g. Doe" required> <br>
+
+                    <!--                                        -->
+                    <h3>First Name:</h3> 
+                    <input type="text" name="fname" placeholder="e.g. John" required> <br><br>
+
+                    <h3>Last Name:</h3> 
+                    <input type="text" name="lname" placeholder="e.g. Doe" required> <br><br>
                     <br>
-                    <label for="phone"><h3>Phone Number:</h3></label> <br>
-                    <input type="tel" name="phone" value="+1 " required> <br>
+
+                    <!--                                        -->
+                    <h3>Phone Number:</h3> 
+                    <input type="tel" name="phone" value="+1 " required> <br><br>
                     <br>
-                    <label for="mail"><h3>E-mail Address:</h3></label> <br>
-                    <input type="email" name="mail" value="@" required> <br>
+
+                    <!--                                        -->
+                    <h3>E-mail Address:</h3> 
+                    <input type="email" name="mail" value="@" required> 
                     <br>
-                    <label for="otr"><h3>Do you have one year On-The-Road experience?</h3></label> <br>
-                    <label for="yes-otr">Yes</label>
-                    <input type="radio" name="otr" value="yes" required> <br>
-                    <label for="no-otr">No</label>
-                    <input type="radio" name="otr" value="no" required> <br>
                     <br>
-                    <label for="team"><h3>Do you have an established team?</h3></label> <br>
-                    <label for="yes-team">Yes</label>
-                    <input type="radio" name="team" value="yes" required> <br>
-                    <label for="no-team">No</label>
-                    <input type="radio" name="team" value="no" required> <br>
+                    <br>
+                    <br>
+
+                    <!--                                        -->
+                    <h3>Do you have one year On-The-Road experience?</h3> 
+                    <br><br>
+                    
+                    <label class="container">
+                        <span class="position-me">Yes</span>
+                        <input type="radio" name="radio-otr" required>
+                        <span class="checkmark"></span>
+                    </label>
+                    <br>
+
+                    <label class="container">
+                        No
+                        <input type="radio" name="radio-otr" checked required>
+                        <span class="checkmark"></span>
+                    </label>
+
+
+                    <br><br>
+                    
+                    
+                    <!--                                        -->
+                    <h3>Do you have an established team?</h3> 
+                    <br><br>
+
+                    <label class="container">
+                        Yes
+                        <input type="radio" name="team" required> 
+                        <span class="checkmark"></span>
+                    </label>
+                    <br>
+
+                    <label class="container">
+                        No
+                        <input type="radio" name="team" checked required> 
+                        <span class="checkmark"></span>
+                    </label>
+                    <br>
                     <br>
                     
+
                     <input type="submit" value="APPLY" name="apply">
                 </form>
             </div>
