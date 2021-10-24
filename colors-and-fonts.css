@@ -26,14 +26,19 @@
     text-decoration: underline;
 }
 
-.primary-font{
+/* .primary-font{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
 }
 .secondary-font{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 300;
-}
+} */
+
+
+*{font-family: Times;}
+
+
 .bold {
     font-weight: 800;
 }
